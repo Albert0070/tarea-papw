@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style type="text/css">
+        .borde{
+        background-color:gray;
+        height: 50px;
+        
+        }
+        .borde1{
+        background-color:black;
+        height: 50px;
+        
+        }
+        .borde2{
+        background-color: green;
+        height: 50px;
+        }
+        
+        .borde3{
+        background-color:yellow;
+        text-align: center;
+        height: 100px;
+        }
+        .borde4{
+        background-color: #2E2EFE;
+        text-align: center;
+        height: 200px;
+        }
+        .final{
+          background-color:yellow;
+        text-align: center;
+        height: 50px;
+        
+        }
+        .hero{
+            background-color:black;
+           
+        }
+        
+        .botones{
+          background-color: black;
+        
+        }
+        .botones2{
+          height: 250px;
+        
+        }
+        
+        .loginpopup {
+        
+        width: auto !important;
+        float: none !important;
+        }
+        
+        
+        .loginpopup {
+        position: relative;
+        z-index: 1;
+        }
+        .secondblock
+        {
+        background-color:white;
+        text-align: center;
+        height: 600px;
+        }
+        .secondblock2
+        {
+        background-color:grey;
+        text-align: center;
+        height: 600px;
+        }
+        .thirdblock
+        {
+            background-color:whitesmoke;
+        text-align: center;
+        height: 1000px;
+        }
+
+
+
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+
+
+
+        </style>
+    <title>INSTABUY</title>
+  </head>
+  <body>
+<div class="container">
+
+<div class="row borde3">
+<div class="col"><br><FONT FACE="cursive" SIZE=10 >INSTA:BUY</FONT></div>
+<div class="col">
+  <br>
+  <br>
+  <form action="busqueda.html" method="POST">
+
+    <FONT FACE="cursive" SIZE=5 >  </FONT>
+    <input type="text"  name="firstname"  value placeholder="Busqueda"  >
+    <button type="submit" class="btn btn-dark fas fa-search"></button>
+    
+    
+
+  </form> 
+
+</div>
+
+
+<div class="col hero loginpopup"><img src="imagenes/profile.jpg" class="mr-3" alt="..."><FONT FACE="cursive" style="color:white;" SIZE=3 >Bienvenido de nuevo! USUARIO</FONT>
+  
+    <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+      <i class="fas fa-shopping-cart"></i>&nbsp; <span class="badge badge-danger">2</span>
+
+    </button>
+  
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body loginpopup">
+      !Oh vaya¡ parece que tu carrito de compras esta vacio
+<br>
+jaja nocierto we xd
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+                <img src="imagenes/dos.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-text">un momazo <span class="badge badge-secondary">Nuevo</span></h5>
+
+                  <p class="card-text">f por el buen momo que te aventaste rufian</p>
+                  <a href="producto.html" class="btn btn-primary">Mas detalles</a>
+                </div>
+              </div>
+            </div>
+<br>
+<br>
+<div class="col">
+  <div class="card" style="width: 18rem;">
+          <img src="imagenes/dos.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-text">un momazo <span class="badge badge-secondary">Nuevo</span></h5>
+
+            <p class="card-text">f por el buen momo que te aventaste rufian</p>
+            <a href="#" class="btn btn-primary">Mas detalles</a>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Comprar
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ¿Seguro que quieres comprar los productos del carrito?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Comprar</button>
+              <button type="button" class="btn btn-primary">Cancelar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <form action="sesion.html" method="POST">
+
+    
+   <button type="submit" class="btn btn-dark"><FONT FACE="cursive" SIZE=2 >regresar</FONT> 
+  
+  
+  </button>
+
+  </form> 
+  </div>
+</div>
+
+<div class="row secondblock">
+    <div class="col secondblock">
+        <form class="form-horizontal">
+            <fieldset>
+            
+            <!-- Form Name -->
+            <legend>editar Producto</legend>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Nombre">Nombre</label>  
+              <div class="col-md-4">
+                &nbsp; &nbsp; &nbsp;  &nbsp;<input id="Nombre" name="Nombre" type="text" placeholder="nombre" class="form-control input-md">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="usuario">marca</label>  
+              <div class="col-md-4">
+              <input id="usuario" name="usuario" type="text" placeholder="marca" class="form-control input-md">
+                
+              </div>
+            </div>
+            
+            <!-- Password input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="contraseña">precio</label>
+              <div class="col-md-4">
+                <input id="contraseña" name="contraseña" type="text" placeholder="precio$$$$" class="form-control input-md">
+                
+              </div>
+            </div>
+            
+            </fieldset>
+            </form>
+    </div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

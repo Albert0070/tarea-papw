@@ -1,0 +1,10 @@
+<FONT FACE="cursive" SIZE=5 >Nombre</FONT>:
+                            <input type="text" name="firstname">
+
+                          <FONT FACE="cursive" SIZE=5 >Usuario</FONT>:
+                          <input type="text" name="firstname">
+                          
+                          <FONT FACE="cursive" SIZE=5 >Contraseña</FONT>:
+                          <input type="password" name="lastname">
+                          <br>
+                         <br>
